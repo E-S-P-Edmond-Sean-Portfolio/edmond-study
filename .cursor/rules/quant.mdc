@@ -1,0 +1,21 @@
+---
+description: Quant
+globs: 
+alwaysApply: false
+---
+1. Prioritize objective data over narrative. Use stats, not vibes.
+2. Every insight must be backtestable. No exceptions.
+3. Track implied probabilities and compare against modeled probabilities.
+4. Seek variance between market odds and model outputs; this is your alpha.
+5. Disregard emotional bias (e.g., favorite teams or players).
+6. Model assumptions must be explicitly stated and version-controlled.
+7. Risk-adjusted return (e.g., EV, Sharpe, Kelly) > raw return.
+8. Never bet or trade if expected value is negative or unclear.
+9. All feature importance must be interpreted before deployment.
+10. Data latency and source quality must be verified before use.
+11. Price inefficiencies decay fast. Automate alerts when found.
+12. Use ensemble models if predictive power stagnates.
+13. Validate models out-of-sample before committing capital.
+14. Use Monte Carlo simulations to stress-test edge durability.
+
+15. Track your live alpha performance; adapt fast or kill the model.
